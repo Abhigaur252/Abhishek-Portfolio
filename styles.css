@@ -1,0 +1,200 @@
+/* Custom Properties */
+:root {
+  --primary-gradient: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  --card-bg: rgba(17, 24, 39, 0.7);
+  --transition-speed: 0.3s;
+}
+
+/* General font style */
+body {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  line-height: 1.75;
+  background-color: #f7fafc;
+  color: #2d3748;
+  scroll-behavior: smooth;
+}
+
+/* Navbar styling */
+nav {
+  background-color: #4c51bf; /* Softer blue */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li a {
+  font-weight: 600;
+  color: #f7fafc;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffed4a; /* Golden color on hover */
+  transform: translateY(-2px);
+}
+
+/* Section headings */
+h2 {
+  font-size: 2.25rem; /* Larger headings for emphasis */
+  color: #2b6cb0; /* Soft blue color */
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Form customizations */
+input, textarea {
+  border-radius: 12px;
+  padding: 0.8rem;
+  border: 2px solid #cbd5e0; /* Soft border */
+  transition: border-color 0.3s ease;
+  background-color: #edf2f7; /* Lighter background */
+  color: #4a5568;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #4c51bf; /* Highlight border on focus */
+  box-shadow: 0 0 8px rgba(76, 81, 191, 0.2); /* Soft focus shadow */
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.8s ease-out;
+}
+
+/* Skill Cards */
+.skill-card {
+  background: var(--card-bg);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.skill-card i {
+  color: #fbbf24;
+  margin-bottom: 0.5rem;
+}
+
+/* Project Cards */
+.project-card {
+  background: var(--card-bg);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 1rem;
+  transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Contact Form */
+.contact-input {
+  width: 100%;
+  padding: 1rem;
+  background: rgba(17, 24, 39, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  color: #fff;
+  transition: border-color var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+}
+
+.contact-input:focus {
+  outline: none;
+  border-color: #fbbf24;
+  box-shadow: 0 0 0 2px rgba(251, 191, 36, 0.2);
+}
+
+/* Social Links */
+.social-link {
+  color: #9ca3af;
+  font-size: 1.5rem;
+  transition: color var(--transition-speed) ease, transform var(--transition-speed) ease;
+}
+
+.social-link:hover {
+  color: #fbbf24;
+  transform: translateY(-3px);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(17, 24, 39, 0.7);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fbbf24;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f59e0b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-link::after {
+    display: none;
+  }
+  
+  .skill-card, .project-card {
+    padding: 1rem;
+  }
+}
+
+/* Footer styling */
+footer {
+  background-color: #2b6cb0; /* Soft blue */
+  color: #f7fafc;
+  padding: 2rem 0;
+}
+
+footer a {
+  color: #ffed4a;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+footer p {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: #edf2f7;
+}
