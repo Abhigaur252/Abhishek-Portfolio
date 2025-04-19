@@ -1,6 +1,5 @@
 # Personal Portfolio Website
 
-![Portfolio Preview](preview.png)
 
 A modern, responsive portfolio website showcasing my skills, projects, and professional journey as a Web Developer and Aspiring AI/ML Engineer.
 
@@ -63,7 +62,6 @@ portfolio/
 ├── styles.css          # Custom CSS styles
 ├── script.js           # JavaScript functionality
 ├── README.md          # Project documentation
-└── preview.png        # Project preview image
 ```
 
 ## 🎯 Key Sections
@@ -76,7 +74,6 @@ portfolio/
 
 ## 🔗 Links
 
-- Portfolio Website: [Your Portfolio URL]
 - LinkedIn: [https://www.linkedin.com/in/abhishek-gaur-5b31602a5/](https://www.linkedin.com/in/abhishek-gaur-5b31602a5/)
 - GitHub: [https://github.com/Abhigaur252](https://github.com/Abhigaur252)
 
@@ -85,9 +82,6 @@ portfolio/
 - Email: abhigaur252@gmail.com
 - Location: Noida, Uttar Pradesh, India
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
