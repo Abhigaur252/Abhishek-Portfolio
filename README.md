@@ -2,6 +2,11 @@
 
 A modern, responsive portfolio website showcasing my skills, projects, and professional journey as a Web Developer and Aspiring AI/ML Engineer.
 
+## 🔍 Preview
+![Screenshot 2025-04-19 185518](https://github.com/user-attachments/assets/292fb5f5-1af7-4971-a7a0-c89589c4eb2c)
+![Screenshot 2025-04-19 185537](https://github.com/user-attachments/assets/931b6374-9480-415e-862b-ab3ddcdb40d1)
+![Screenshot 2025-04-19 185552](https://github.com/user-attachments/assets/f34e8fa8-671a-47e3-9117-9b849c3e6ae1)
+
 ## 🌟 Features
 
 - Responsive design that works on all devices
@@ -25,11 +30,6 @@ A modern, responsive portfolio website showcasing my skills, projects, and profe
   - Git
   - GitHub
   - VS Code
-
-## 🔍 Preview
-![Screenshot 2025-04-19 185518](https://github.com/user-attachments/assets/292fb5f5-1af7-4971-a7a0-c89589c4eb2c)
-![Screenshot 2025-04-19 185537](https://github.com/user-attachments/assets/931b6374-9480-415e-862b-ab3ddcdb40d1)
-![Screenshot 2025-04-19 185552](https://github.com/user-attachments/assets/f34e8fa8-671a-47e3-9117-9b849c3e6ae1)
 
 ## 📋 Prerequisites
 
